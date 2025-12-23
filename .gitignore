@@ -1,5 +1,7 @@
 # Node
 node_modules
+node_modules.backup-old
+apps/**/node_modules.backup-old
 npm-debug.log*
 yarn-error.log
 
