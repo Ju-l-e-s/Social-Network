@@ -1,0 +1,15 @@
+{
+  "name": "groupomania-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+    "dev:web": "npm run dev --workspace web",
+    "dev:api": "npm run dev --workspace groupomania-api",
+    "lint": "npm run lint --workspace web",
+    "typecheck": "npm run typecheck --workspace groupomania-api"
+  }
+}

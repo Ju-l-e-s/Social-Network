@@ -1,0 +1,959 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.10.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.6.0
+2 info using node@v24.10.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 info config found workspace root at /Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania
+5 silly config load:file:/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/.npmrc
+6 silly config load:file:/Users/Jules/.npmrc
+7 silly config load:file:/opt/homebrew/etc/npmrc
+8 verbose title npm install
+9 verbose argv "install" "--cache" "../../.npm-cache"
+10 verbose logfile logs-max:10 dir:/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/.npm-cache/_logs/2025-12-04T10_35_08_386Z-
+11 verbose logfile /Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/.npm-cache/_logs/2025-12-04T10_35_08_386Z-debug-0.log
+12 silly logfile done cleaning log files
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ENOTFOUND
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+16 silly idealTree buildDeps
+17 silly reify mark retired [
+17 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/android-arm'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/aix-ppc64'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/android-arm64'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/android-x64'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/darwin-x64'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/freebsd-arm64'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/freebsd-x64'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-arm'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-ia32'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-arm64'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-loong64'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-mips64el'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-ppc64'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-riscv64'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-s390x'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-x64'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/netbsd-arm64'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/openbsd-arm64'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/netbsd-x64'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/openbsd-x64'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/openharmony-arm64'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/sunos-x64'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/win32-arm64'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/win32-ia32'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/win32-x64'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-android-arm-eabi'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-android-arm64'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-darwin-x64'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-freebsd-arm64'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-freebsd-x64'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-arm-musleabihf'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-arm64-gnu'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-arm64-musl'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-loong64-gnu'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-riscv64-gnu'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-riscv64-musl'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-ppc64-gnu'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-s390x-gnu'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-x64-gnu'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-win32-arm64-msvc'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-x64-musl'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-openharmony-arm64'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-win32-ia32-msvc'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-win32-x64-msvc'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-win32-x64-gnu'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/aix-ppc64'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/android-arm64'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/android-x64'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/android-arm'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/darwin-x64'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/freebsd-arm64'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-arm'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-arm64'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/freebsd-x64'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-ia32'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-loong64'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-ppc64'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-mips64el'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-x64'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/netbsd-x64'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-riscv64'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/netbsd-arm64'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/openbsd-arm64'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-s390x'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/openbsd-x64'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/sunos-x64'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/win32-arm64'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/openharmony-arm64'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/win32-x64'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/win32-ia32'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-android-arm-eabi'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-android-arm64'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-darwin-x64'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-freebsd-arm64'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-freebsd-x64'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-arm-musleabihf'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-arm64-gnu'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-arm64-musl'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-loong64-gnu'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-riscv64-gnu'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-riscv64-musl'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-s390x-gnu'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-x64-gnu'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-ppc64-gnu'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-openharmony-arm64'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-win32-arm64-msvc'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-x64-musl'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-win32-x64-msvc'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-win32-x64-gnu'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-win32-ia32-msvc'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@asamuzakjp/dom-selector'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@adobe/css-tools'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@acemir/cssom'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@asamuzakjp/nwsapi'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/code-frame'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/helper-string-parser'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/helper-validator-identifier'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/parser',
+116 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/parser'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/runtime'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@bcoe/v8-coverage'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/types'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/color-helpers'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-color-parser'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-calc'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-tokenizer'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@asamuzakjp/css-color'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-parser-algorithms'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-syntax-patches-for-csstree'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/darwin-arm64'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@jridgewell/resolve-uri'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@jridgewell/trace-mapping'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@playwright/test',
+130 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/playwright'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-darwin-arm64'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@jridgewell/sourcemap-codec'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@standard-schema/spec'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@testing-library/react'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@testing-library/dom'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/aria-query'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/chai'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/deep-eql'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/coverage-v8'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/mocker'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/expect'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/pretty-format'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/runner'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/spy'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/estree'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/utils'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/snapshot'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/agent-base'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/aria-query'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/assertion-error'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ast-v8-to-istanbul'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ansi-regex'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ansi-styles'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/bidi-js'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/chai'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/css.escape'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/cssstyle'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/debug'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/decimal.js'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/data-urls'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/dequal'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/entities'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/dom-accessibility-api'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/es-module-lexer'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/css-tree'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/esbuild',
+166 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/esbuild'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/fdir'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/fsevents'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/estree-walker'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/has-flag'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/html-encoding-sniffer'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/html-escaper'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/expect-type'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/http-proxy-agent'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/iconv-lite'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/https-proxy-agent'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/is-potential-custom-element-name'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/istanbul-lib-coverage'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/istanbul-lib-report'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/istanbul-lib-source-maps'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/indent-string'
+181 silly reify ]
+182 silly reify mark retired [
+182 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/js-tokens'
+182 silly reify ]
+183 silly reify mark retired [
+183 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/istanbul-reports'
+183 silly reify ]
+184 silly reify mark retired [
+184 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/jsdom'
+184 silly reify ]
+185 silly reify mark retired [
+185 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/magic-string'
+185 silly reify ]
+186 silly reify mark retired [
+186 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/lz-string',
+186 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/lz-string'
+186 silly reify ]
+187 silly reify mark retired [
+187 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/lru-cache'
+187 silly reify ]
+188 silly reify mark retired [
+188 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/magicast'
+188 silly reify ]
+189 silly reify mark retired [
+189 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/min-indent'
+189 silly reify ]
+190 silly reify mark retired [
+190 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/make-dir'
+190 silly reify ]
+191 silly reify mark retired [
+191 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/mdn-data'
+191 silly reify ]
+192 silly reify mark retired [
+192 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ms'
+192 silly reify ]
+193 silly reify mark retired [
+193 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/obug'
+193 silly reify ]
+194 silly reify mark retired [
+194 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/nanoid',
+194 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/nanoid'
+194 silly reify ]
+195 silly reify mark retired [
+195 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/parse5'
+195 silly reify ]
+196 silly reify mark retired [
+196 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/pathe'
+196 silly reify ]
+197 silly reify mark retired [
+197 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/picocolors'
+197 silly reify ]
+198 silly reify mark retired [
+198 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/picomatch'
+198 silly reify ]
+199 silly reify mark retired [
+199 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/playwright',
+199 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/playwright'
+199 silly reify ]
+200 silly reify mark retired [
+200 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/postcss'
+200 silly reify ]
+201 silly reify mark retired [
+201 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/playwright-core',
+201 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/playwright-core'
+201 silly reify ]
+202 silly reify mark retired [
+202 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/pretty-format'
+202 silly reify ]
+203 silly reify mark retired [
+203 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/punycode'
+203 silly reify ]
+204 silly reify mark retired [
+204 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/react'
+204 silly reify ]
+205 silly reify mark retired [
+205 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/react-dom'
+205 silly reify ]
+206 silly reify mark retired [
+206 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/react-is'
+206 silly reify ]
+207 silly reify mark retired [
+207 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/redent'
+207 silly reify ]
+208 silly reify mark retired [
+208 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/rollup',
+208 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/rollup'
+208 silly reify ]
+209 silly reify mark retired [
+209 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/require-from-string'
+209 silly reify ]
+210 silly reify mark retired [
+210 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/saxes'
+210 silly reify ]
+211 silly reify mark retired [
+211 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/safer-buffer'
+211 silly reify ]
+212 silly reify mark retired [
+212 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/scheduler'
+212 silly reify ]
+213 silly reify mark retired [
+213 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/semver',
+213 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/semver'
+213 silly reify ]
+214 silly reify mark retired [
+214 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/source-map-js'
+214 silly reify ]
+215 silly reify mark retired [
+215 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/siginfo'
+215 silly reify ]
+216 silly reify mark retired [
+216 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/std-env'
+216 silly reify ]
+217 silly reify mark retired [
+217 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/stackback'
+217 silly reify ]
+218 silly reify mark retired [
+218 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/supports-color'
+218 silly reify ]
+219 silly reify mark retired [
+219 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/strip-indent'
+219 silly reify ]
+220 silly reify mark retired [
+220 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/symbol-tree'
+220 silly reify ]
+221 silly reify mark retired [
+221 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tinybench'
+221 silly reify ]
+222 silly reify mark retired [
+222 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tinyexec'
+222 silly reify ]
+223 silly reify mark retired [
+223 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tinyglobby'
+223 silly reify ]
+224 silly reify mark retired [
+224 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tldts-core'
+224 silly reify ]
+225 silly reify mark retired [
+225 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tinyrainbow'
+225 silly reify ]
+226 silly reify mark retired [
+226 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tough-cookie'
+226 silly reify ]
+227 silly reify mark retired [
+227 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tldts',
+227 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/tldts'
+227 silly reify ]
+228 silly reify mark retired [
+228 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tr46'
+228 silly reify ]
+229 silly reify mark retired [
+229 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/w3c-xmlserializer'
+229 silly reify ]
+230 silly reify mark retired [
+230 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/whatwg-encoding'
+230 silly reify ]
+231 silly reify mark retired [
+231 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/vitest',
+231 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/vitest'
+231 silly reify ]
+232 silly reify mark retired [
+232 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/vite',
+232 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/vite'
+232 silly reify ]
+233 silly reify mark retired [
+233 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/webidl-conversions'
+233 silly reify ]
+234 silly reify mark retired [
+234 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/whatwg-mimetype'
+234 silly reify ]
+235 silly reify mark retired [
+235 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/whatwg-url'
+235 silly reify ]
+236 silly reify mark retired [
+236 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/why-is-node-running',
+236 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/why-is-node-running'
+236 silly reify ]
+237 silly reify mark retired [
+237 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ws'
+237 silly reify ]
+238 silly reify mark retired [
+238 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/xml-name-validator'
+238 silly reify ]
+239 silly reify mark retired [
+239 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/xmlchars'
+239 silly reify ]
+240 silly reify mark retired [
+240 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/groupomania-api'
+240 silly reify ]
+241 silly reify mark retired [
+241 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/web'
+241 silly reify ]
+242 silly reify moves {
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/android-arm': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.android-arm-3p2uDC60',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/aix-ppc64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.aix-ppc64-ZZ7JTDwX',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/android-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.android-arm64-7ExbU6uR',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/android-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.android-x64-ykM9pjD2',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/darwin-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.darwin-x64-DRz1IKpp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/freebsd-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.freebsd-arm64-S7fukdhm',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/freebsd-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.freebsd-x64-kb4INYpt',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-arm': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.linux-arm-pLGbvr0L',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-ia32': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.linux-ia32-3IYPqGJs',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.linux-arm64-yx2JCyVo',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-loong64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.linux-loong64-Pgh1wTvD',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-mips64el': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.linux-mips64el-s2F1y4va',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-ppc64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.linux-ppc64-ehwVe7eH',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-riscv64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.linux-riscv64-KGSDg3LA',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-s390x': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.linux-s390x-GE8YCAKZ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/linux-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.linux-x64-e1l9lTI3',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/netbsd-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.netbsd-arm64-DtUtiucq',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/openbsd-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.openbsd-arm64-Ar7iLIEA',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/netbsd-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.netbsd-x64-EYvEVUen',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/openbsd-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.openbsd-x64-PshnhpOw',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/openharmony-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.openharmony-arm64-ad4Y595i',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/sunos-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.sunos-x64-pmRnIWOb',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/win32-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.win32-arm64-KojTywaR',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/win32-ia32': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.win32-ia32-InByT6v4',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/win32-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@esbuild/.win32-x64-CnlvdWza',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-android-arm-eabi': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-android-arm-eabi-K4bIRzhi',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-android-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-android-arm64-zbzHxkVY',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-darwin-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-darwin-x64-eKTpTwcT',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-freebsd-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-freebsd-arm64-jAG14WX4',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-arm-gnueabihf': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-arm-gnueabihf-7EUMBfxp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-freebsd-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-freebsd-x64-PT1vzDU3',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-arm-musleabihf': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-arm-musleabihf-dMk7ZoAg',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-arm64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-arm64-gnu-ZgmpQ1Op',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-arm64-musl': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-arm64-musl-PNA8WGER',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-loong64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-loong64-gnu-lfK1rya7',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-riscv64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-riscv64-gnu-F1jyrxHO',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-riscv64-musl': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-riscv64-musl-bg09Bs34',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-ppc64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-ppc64-gnu-Sic4BYcJ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-s390x-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-s390x-gnu-2ZC1FudI',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-x64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-x64-gnu-68kyphfr',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-win32-arm64-msvc': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-win32-arm64-msvc-hYXI072b',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-linux-x64-musl': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-linux-x64-musl-ZLYwIRy1',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-openharmony-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-openharmony-arm64-8cMtHYAl',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-win32-ia32-msvc': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-win32-ia32-msvc-p2H8AMB7',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-win32-x64-msvc': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-win32-x64-msvc-qMNIm0rW',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/rollup-win32-x64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/node_modules/@rollup/.rollup-win32-x64-gnu-rUmCCWMz',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/aix-ppc64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.aix-ppc64-h9M9NNdF',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/android-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.android-arm64-mSE34AZu',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/android-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.android-x64-2Vvv3tHe',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/android-arm': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.android-arm-Dh1O3rBC',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/darwin-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.darwin-x64-uSPgr9JC',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/freebsd-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.freebsd-arm64-oWSLlxaz',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-arm': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.linux-arm-SeneRxP7',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.linux-arm64-0oPy23gm',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/freebsd-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.freebsd-x64-x6b1RLQA',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-ia32': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.linux-ia32-KT6nhaw1',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-loong64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.linux-loong64-5dLj1Z37',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-ppc64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.linux-ppc64-EnNnbnRT',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-mips64el': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.linux-mips64el-wREu8nYT',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.linux-x64-2ibE3XEH',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/netbsd-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.netbsd-x64-KYJ7vJ9H',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-riscv64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.linux-riscv64-DF4mz1Vf',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/netbsd-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.netbsd-arm64-IZwbdceL',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/openbsd-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.openbsd-arm64-4X67fhF6',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/linux-s390x': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.linux-s390x-oRpC8AAJ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/openbsd-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.openbsd-x64-yhCM5SZn',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/sunos-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.sunos-x64-Gegpu6ts',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/win32-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.win32-arm64-cUjvQmRF',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/openharmony-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.openharmony-arm64-bEzFKf0W',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/win32-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.win32-x64-i9TPWCMp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/win32-ia32': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.win32-ia32-rPwbHYtB',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-android-arm-eabi': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-android-arm-eabi-cHE1aYQP',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-android-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-android-arm64-cwdoiXdd',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-darwin-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-darwin-x64-n07IaGWk',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-freebsd-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-freebsd-arm64-aXGgEKWt',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-freebsd-x64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-freebsd-x64-ndjb2NXK',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-arm-gnueabihf': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-arm-gnueabihf-mkXYEQJo',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-arm-musleabihf': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-arm-musleabihf-OXl61p6b',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-arm64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-arm64-gnu-1MZoo0di',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-arm64-musl': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-arm64-musl-ixR0oRix',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-loong64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-loong64-gnu-Mo0zqmCZ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-riscv64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-riscv64-gnu-wdlkUhjA',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-riscv64-musl': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-riscv64-musl-jwjap87j',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-s390x-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-s390x-gnu-oUR9eOYZ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-x64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-x64-gnu-Yeriaowt',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-ppc64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-ppc64-gnu-r5Q00kqJ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-openharmony-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-openharmony-arm64-6XYbKe69',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-win32-arm64-msvc': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-win32-arm64-msvc-DHLPmzDn',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-linux-x64-musl': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-linux-x64-musl-gra5v5al',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-win32-x64-msvc': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-win32-x64-msvc-otQ5mJu8',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-win32-x64-gnu': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-win32-x64-gnu-Dg9NiW7F',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-win32-ia32-msvc': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-win32-ia32-msvc-AZgQnVsD',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@asamuzakjp/dom-selector': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@asamuzakjp/.dom-selector-mMS3QraU',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@adobe/css-tools': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@adobe/.css-tools-ILze1ryJ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@acemir/cssom': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@acemir/.cssom-3nbKZgas',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@asamuzakjp/nwsapi': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@asamuzakjp/.nwsapi-zDkmZKum',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/code-frame': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/.code-frame-p2KnoJv9',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/helper-string-parser': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/.helper-string-parser-jajC301k',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/helper-validator-identifier': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/.helper-validator-identifier-Fs8j0C0Y',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/parser': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/.parser-6aTZpiFh',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/parser': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.parser-Q6Cz6pbt',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/runtime': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/.runtime-Qop1Ma7S',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@bcoe/v8-coverage': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@bcoe/.v8-coverage-Uqif2bGH',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/types': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@babel/.types-KnAa2Unp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/color-helpers': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/.color-helpers-1woWTVyS',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-color-parser': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/.css-color-parser-XTeoNRO3',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-calc': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/.css-calc-JkCbJ7RR',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-tokenizer': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/.css-tokenizer-JBPWjE2f',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@asamuzakjp/css-color': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@asamuzakjp/.css-color-pZlVtsn7',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-parser-algorithms': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/.css-parser-algorithms-cprHsXmP',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/css-syntax-patches-for-csstree': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@csstools/.css-syntax-patches-for-csstree-3nl091k3',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/darwin-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@esbuild/.darwin-arm64-kGF6a4ut',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@jridgewell/resolve-uri': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@jridgewell/.resolve-uri-oq3V95Mp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@jridgewell/trace-mapping': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@jridgewell/.trace-mapping-wmTIAiQe',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@playwright/test': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@playwright/.test-44wHRsBP',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/playwright': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.playwright-mTyPnwFy',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/rollup-darwin-arm64': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@rollup/.rollup-darwin-arm64-gAM9Vps7',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@jridgewell/sourcemap-codec': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@jridgewell/.sourcemap-codec-0uPJSAYk',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@standard-schema/spec': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@standard-schema/.spec-iA8qsSLz',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@testing-library/react': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@testing-library/.react-J80KyBur',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@testing-library/dom': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@testing-library/.dom-jrByGXt5',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/aria-query': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/.aria-query-thIwdv8B',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/chai': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/.chai-YQaHkFsP',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/deep-eql': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/.deep-eql-j5i3xhFe',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/coverage-v8': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/.coverage-v8-IDFsohln',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/mocker': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/.mocker-SzwusfDl',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/expect': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/.expect-qGPI5bXQ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/pretty-format': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/.pretty-format-Xr66DLtu',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/runner': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/.runner-3WmRDUTz',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/spy': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/.spy-hPljKdwV',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/estree': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@types/.estree-mfR6OM7Z',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/utils': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/.utils-QuQi7tiI',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/snapshot': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/@vitest/.snapshot-U7TuOASC',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/agent-base': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.agent-base-APJnNUz8',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/aria-query': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.aria-query-QprUnnoT',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/assertion-error': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.assertion-error-fTOBXC58',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ast-v8-to-istanbul': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.ast-v8-to-istanbul-o1dypOnM',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ansi-regex': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.ansi-regex-8xP4ZarK',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ansi-styles': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.ansi-styles-DEPMYOTb',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/bidi-js': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bidi-js-6anoSJBp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/chai': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.chai-CeqBF9Yp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/css.escape': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.css.escape-UkmAQYAJ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/cssstyle': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.cssstyle-MoqqMZsp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/debug': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.debug-gjnN04pV',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/decimal.js': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.decimal.js-kmGNXhUm',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/data-urls': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.data-urls-vrYVskRy',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/dequal': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.dequal-yf8tYP5c',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/entities': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.entities-LbRAd0oV',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/dom-accessibility-api': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.dom-accessibility-api-lqiRRqLk',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/es-module-lexer': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.es-module-lexer-bMBvurtM',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/css-tree': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.css-tree-K18dxEsO',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/esbuild': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.esbuild-pktVMh9c',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/esbuild': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.esbuild-IErxIvSo',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/fdir': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.fdir-9G9CNYbB',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/fsevents': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.fsevents-sgRJbG7u',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/estree-walker': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.estree-walker-RbykW7GZ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/has-flag': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.has-flag-8p8Xolyn',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/html-encoding-sniffer': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.html-encoding-sniffer-HmCnbwMr',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/html-escaper': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.html-escaper-PaefiYDu',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/expect-type': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.expect-type-tO9LukZE',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/http-proxy-agent': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.http-proxy-agent-oPZmVSYk',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/iconv-lite': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.iconv-lite-nNgK4CGE',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/https-proxy-agent': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.https-proxy-agent-NbMJGQgj',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/is-potential-custom-element-name': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.is-potential-custom-element-name-8xy2zltm',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/istanbul-lib-coverage': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.istanbul-lib-coverage-ZetZl0dm',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/istanbul-lib-report': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.istanbul-lib-report-Hqz1rc2g',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/istanbul-lib-source-maps': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.istanbul-lib-source-maps-GMNcBRFV',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/indent-string': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.indent-string-6S1QnMwJ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/js-tokens': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.js-tokens-BhusuojR',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/istanbul-reports': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.istanbul-reports-1GrsKbYM',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/jsdom': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.jsdom-w1GaMU4H',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/magic-string': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.magic-string-GBwMY7GP',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/lz-string': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.lz-string-KDDW1JIk',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/lz-string': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.lz-string-Y62eyYYu',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/lru-cache': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.lru-cache-Pj9td299',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/magicast': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.magicast-A3JypXAy',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/min-indent': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.min-indent-vNxPGqQU',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/make-dir': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.make-dir-0VNTfIRC',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/mdn-data': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.mdn-data-tTJ1HLaC',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ms': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.ms-kYpryK99',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/obug': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.obug-U8ftYD1s',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/nanoid': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.nanoid-dchGVWD5',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/nanoid': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.nanoid-WuTIhc2b',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/parse5': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.parse5-MH4DpjiI',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/pathe': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.pathe-gDEFsJln',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/picocolors': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.picocolors-7xSqJUYM',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/picomatch': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.picomatch-CcoWxVUJ',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/playwright': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.playwright-rOge1wYp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/postcss': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.postcss-JQIlaV62',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/playwright-core': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.playwright-core-bGWMA4Cc',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/playwright-core': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.playwright-core-TdPIrMSu',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/pretty-format': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.pretty-format-qeSlmRq4',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/punycode': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.punycode-C5MPqj70',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/react': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.react-UcoD75TE',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/react-dom': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.react-dom-EbGRievu',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/react-is': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.react-is-FKBZjNTI',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/redent': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.redent-V8OVettB',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/rollup': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.rollup-y2NjbgMX',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/rollup': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.rollup-eiKYlwCy',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/require-from-string': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.require-from-string-ywTkdC6F',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/saxes': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.saxes-0h6xE11z',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/safer-buffer': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.safer-buffer-M6ZDsklX',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/scheduler': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.scheduler-YIOm4SN4',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/semver': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.semver-ldASkfzM',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/semver': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.semver-rNEwkgWX',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/source-map-js': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.source-map-js-iJ4yuXVE',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/siginfo': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.siginfo-MjXXJBCB',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/std-env': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.std-env-q2j4AzPd',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/stackback': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.stackback-nqvIGthL',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/supports-color': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.supports-color-xLSSP3Ph',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/strip-indent': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.strip-indent-F8zGei8j',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/symbol-tree': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.symbol-tree-r2Unxtmo',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tinybench': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.tinybench-6ESAWzBE',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tinyexec': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.tinyexec-vbhxS5CD',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tinyglobby': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.tinyglobby-WOz8LGJa',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tldts-core': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.tldts-core-25QYIz23',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tinyrainbow': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.tinyrainbow-tTjbQAmn',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tough-cookie': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.tough-cookie-IQ05gcoc',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tldts': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.tldts-pIn8HcgB',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/tldts': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.tldts-QisJEbnT',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/tr46': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.tr46-q38FjfPP',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/w3c-xmlserializer': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.w3c-xmlserializer-O1q11tf5',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/whatwg-encoding': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.whatwg-encoding-UpPdPvbd',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/vitest': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.vitest-NZ0aIFRp',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/vitest': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.vitest-fKaR3nPz',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/vite': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.vite-s1ISeOdY',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/vite': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.vite-siiuwYO7',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/webidl-conversions': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.webidl-conversions-5eoRTfc5',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/whatwg-mimetype': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.whatwg-mimetype-k4mMi5As',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/whatwg-url': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.whatwg-url-TfDmmITn',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/why-is-node-running': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.why-is-node-running-M2ZGBrxl',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/why-is-node-running': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.bin/.why-is-node-running-bYni93fS',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/ws': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.ws-xo4cwck4',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/xml-name-validator': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.xml-name-validator-JfastPfU',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/xmlchars': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.xmlchars-AbADUh2H',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/groupomania-api': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.groupomania-api-fIJcFhi4',
+242 silly reify   '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/web': '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules/.web-2uOnqK28'
+242 silly reify }
+243 verbose stack Error: ENOTEMPTY: directory not empty, rmdir '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules'
+244 error code ENOTEMPTY
+245 error syscall rmdir
+246 error path /Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules
+247 error errno -66
+248 error ENOTEMPTY: directory not empty, rmdir '/Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web/node_modules'
+249 silly unfinished npm timer reify 1764844508638
+250 silly unfinished npm timer reify:createSparse 1764844508855
+251 verbose cwd /Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/apps/web
+252 verbose os Darwin 25.0.0
+253 verbose node v24.10.0
+254 verbose npm  v11.6.0
+255 verbose exit -66
+256 verbose code -66
+257 error A complete log of this run can be found in: /Users/jules/Library/Mobile Documents/com~apple~CloudDocs/Desktop/1dev/0PENCLASSROOMS/Formation Javascript/PROJET 7/Groupomania/.npm-cache/_logs/2025-12-04T10_35_08_386Z-debug-0.log

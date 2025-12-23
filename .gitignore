@@ -1,3 +1,33 @@
-back/node_modules
-back/images/*
-back/.env
+# Node
+node_modules
+npm-debug.log*
+yarn-error.log
+
+# Build artifacts
+dist
+build
+.next
+apps/**/.next
+.turbo
+coverage
+playwright-report
+test-results
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+apps/**/.env
+apps/**/.env.local
+!apps/**/.env.example
+
+# Local uploads/cache
+uploads
+apps/**/uploads
+
+# macOS / IDE
+.DS_Store
+.idea
+.vscode

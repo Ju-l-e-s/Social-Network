@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* Rôles de couleurs : on garde quelques tokens pour la compatibilité existante,
+   mais on aligne les valeurs sur la palette Tailwind (clair/sombre) et on évite
+   les dégradés forcés. */
+@theme {
+  --color-canvas: hsl(var(--color-canvas-value) / <alpha-value>);
+  --color-canvas-accent: hsl(var(--color-canvas-accent-value) / <alpha-value>);
+  --color-text: hsl(var(--color-text-value) / <alpha-value>);
+  --color-text-muted: hsl(var(--color-text-muted-value) / <alpha-value>);
+  --color-text-inverted: hsl(var(--color-text-inverted-value) / <alpha-value>);
+  --color-brand: hsl(var(--color-brand-value) / <alpha-value>);
+  --color-brand-dark: hsl(var(--color-brand-dark-value) / <alpha-value>);
+  --color-brand-light: hsl(var(--color-brand-light-value) / <alpha-value>);
+  --color-stroke: hsl(var(--color-stroke-value) / <alpha-value>);
+  --color-success: hsl(var(--color-success-value) / <alpha-value>);
+  --color-warning: hsl(var(--color-warning-value) / <alpha-value>);
+  --shadow-subtle: 0 10px 30px hsl(220 13% 10% / 0.12);
+  --shadow-card: 0 20px 50px hsl(220 13% 10% / 0.16);
+  --font-sans: var(--font-geist-sans), "Inter", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --color-grid-value: 210 22% 85% / 0.25;
+}
+
+:root {
+  --color-canvas-value: 0 0% 100%;
+  --color-canvas-accent-value: 210 55% 97%;
+  --color-text-value: 222 47% 11%;
+  --color-text-muted-value: 221 21% 45%;
+  --color-text-inverted-value: 0 0% 100%;
+  --color-brand-value: 10 86% 55%;
+  --color-brand-dark-value: 12 82% 45%;
+  --color-brand-light-value: 9 90% 65%;
+  --color-stroke-value: 214 32% 91%;
+  --color-success-value: 152 62% 46%;
+  --color-warning-value: 30 100% 54%;
+}
+
+.dark {
+  --color-canvas-value: 220 20% 6%;
+  --color-canvas-accent-value: 220 18% 12%;
+  --color-text-value: 210 40% 98%;
+  --color-text-muted-value: 215 16% 70%;
+  --color-text-inverted-value: 0 0% 100%;
+  --color-brand-value: 12 80% 64%;
+  --color-brand-dark-value: 14 80% 52%;
+  --color-brand-light-value: 10 90% 72%;
+  --color-stroke-value: 220 16% 20%;
+  --color-success-value: 152 62% 46%;
+  --color-warning-value: 30 100% 54%;
+}
+
+@utility bg-grid-glow {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    hsl(var(--color-grid-value)),
+    transparent 0
+  );
+}
+
+@layer base {
+  * {
+    @apply border-transparent;
+  }
+
+  body {
+    @apply min-h-screen bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+    font-family: var(--font-geist-sans), "Inter", system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-image: none;
+  }
+}
+
+.scroll-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.scroll-section {
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
